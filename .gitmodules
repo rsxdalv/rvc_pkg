@@ -1,0 +1,4 @@
+[submodule "rvc_pkg"]
+	path = rvc_pkg
+	url = https://github.com/rsxdalv/Retrieval-based-Voice-Conversion-WebUI.git
+	branch = dev
