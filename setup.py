@@ -3,14 +3,7 @@ import setuptools
 
 setuptools.setup(
     name="rvc_pkg",
-    packages=[
-        "rvc_pkg",
-        "rvc_pkg.assets",
-        "rvc_pkg.configs",
-        "rvc_pkg.i18n",
-        "rvc_pkg.tools",
-        "rvc_pkg.infer",
-    ],
+    packages=setuptools.find_namespace_packages(),
     version="0.1.2",
     author="lj1995",
     description="An easy-to-use Voice Conversion framework based on VITS",
@@ -18,6 +11,10 @@ setuptools.setup(
     project_urls={},
     scripts=[],
     include_package_data=True,
+    # include JSON files
+    package_data={
+        "": ["*.json"],
+    },
     install_requires=[
         "absl-py>=1.2.0",
         "audioread",
