@@ -8,7 +8,6 @@ setuptools.setup(
         "rvc_pkg.assets",
         "rvc_pkg.configs",
         "rvc_pkg.i18n",
-        "rvc_pkg.lib",
         "rvc_pkg.tools",
         "rvc_pkg.infer",
     ],
