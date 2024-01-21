@@ -3,7 +3,7 @@
 ## Installation
 
 ```bash
-pip install rvc_pkg
+pip install git+https://github.com/rsxdalv/rvc_pkg#egg=rvc_pkg
 ```
 
 ## Usage

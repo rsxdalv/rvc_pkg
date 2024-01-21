@@ -3,7 +3,14 @@ import setuptools
 
 setuptools.setup(
     name="rvc_pkg",
-    packages=setuptools.find_packages(),
+    packages=[
+        "assets",
+        "configs",
+        "i18n",
+        "lib",
+        "tools",
+        "infer",
+    ],
     version="0.1.2",
     author="lj1995",
     description="An easy-to-use Voice Conversion framework based on VITS",
