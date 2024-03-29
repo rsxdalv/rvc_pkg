@@ -4,7 +4,7 @@ import setuptools
 setuptools.setup(
     name="rvc_pkg",
     packages=setuptools.find_namespace_packages(),
-    version="0.1.2",
+    version="0.1.3",
     author="lj1995",
     description="An easy-to-use Voice Conversion framework based on VITS",
     url="https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI",
