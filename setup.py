@@ -21,7 +21,7 @@ setuptools.setup(
         "av",
         "colorama>=0.4.5",
         "Cython",
-        "fairseq==0.12.2",
+        "fairseq", # 0.12.2 remove restriction due to installation issues
         "faiss-cpu",
         # "fastapi==0.88", # Unnecessary for package use
         "ffmpeg-python>=0.2.0",
