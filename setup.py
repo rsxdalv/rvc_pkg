@@ -38,7 +38,7 @@ setuptools.setup(
         "matplotlib-inline>=0.1.3",
         "matplotlib>=3.7.0",
         "numba",
-        "numpy",
+        "numpy==1.23.5", # last float attribute version
         "onnxruntime-gpu; sys_platform != 'darwin'",
         "onnxruntime; sys_platform == 'darwin'",
         "Pillow>=9.1.1",
